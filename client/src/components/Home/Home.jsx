@@ -25,9 +25,9 @@ function Home({ base_URL }) {
         <div className="home">
             <div>
                 <div className='randomPlayer'>
-                    <div>Name : <span>❛❛</span>{player.name}<span>❜❜</span></div>
-                    <div>Country : {player.country}</div>
-                    <div>Score : {player.score}</div>
+                    <div>Name : <span>❛❛</span>{player&&player.name}<span>❜❜</span></div>
+                    <div>Country : {player&&player.country}</div>
+                    <div>Score : {player&&player.score}</div>
                 </div>
                 <div className="playerButtons text-center">
                     <Button className='me-2 my-2' variant="contained" color="success" onClick={getRandomPlayer} style={{ borderRadius: "50px" }}>
