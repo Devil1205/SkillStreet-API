@@ -11,7 +11,7 @@ import SearchRank from './components/SearchRank/SearchRank.jsx';
 function App() {
 
   // const base_URL = "http://localhost:5000";
-  const base_URL = "  https://psms-z35j.onrender.com/players";
+  const base_URL = "  https://psms-z35j.onrender.com";
   const [message, setMessage] = useState("");
 
   const updateMessage = (type, message) => {

@@ -7,7 +7,7 @@ const createPlayer = async (req, res) => {
     try {
         const player = new Player({
             name,
-            country,
+            country: country.toUpperCase(),
             score
         });
         await player.save();
