@@ -30,6 +30,6 @@ For deployment purpose I have used mongodb atlas whose URI is present in .env fo
 ===================================
 Deployment:
 
-Frontend: 
+Frontend: https://psms-nine.vercel.app/ (to view actual demo of the project)
 
-Backend: https://psms-z35j.onrender.com/players
+Backend: https://psms-z35j.onrender.com/ (to test api endpoints)
