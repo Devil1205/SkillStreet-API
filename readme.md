@@ -1,7 +1,8 @@
 # About API Endpoints
 
 #### Important: Basic Authentication is used to prevent api endpoints being hit from unknown users. So, make sure to add name as _'admin'_ & password as _'admin@123'_ in the basic auth header to test the api endpoints. Replace :id with note id that can be obtained by fetching all notes for any particular note.
-<B>
+<B>  
+ 
  1. Fetch all notes present in database  
     URL: [https://skillstreet-api.onrender.com/notes](url)  
     Request Method: GET  
