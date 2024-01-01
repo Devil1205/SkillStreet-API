@@ -14,7 +14,7 @@ require("./db/db");
 app.use(express.json());
 
 //routes
-app.use(require("./routes/playerRoutes"));
+app.use(require("./routes/noteRoutes"));
 
 app.listen(port, ()=>{
     console.log("Listening on port "+port);
