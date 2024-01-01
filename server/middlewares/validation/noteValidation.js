@@ -1,6 +1,6 @@
 const { body, validationResult } = require('express-validator');
 
-//create note error validation
+//create note error validation middleware
 const createNoteValidation = {
     errors:
         [
@@ -25,7 +25,7 @@ const createNoteValidation = {
         }
 }
 
-//update note error validation
+//update note error validation middleware
 const updateNoteValidation = {
     errors:
         [
