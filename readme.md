@@ -4,31 +4,31 @@
 <B>  
  
  1. Fetch all notes present in database  
-    URL: [https://skillstreet-api.onrender.com/notes](url)  
+    URL: <a href="https://skillstreet-api.onrender.com/notes" target="_blank"> https://skillstreet-api.onrender.com/notes</a>  
     Request Method: GET  
     Request Body Format: no body input required  
     Response Format: Array of objects corresponding user notes.
 
  2. Fetch a particular note by its ID  
-    URL: [https://skillstreet-api.onrender.com/notes/:id](url)  
+    URL:   <a href="https://skillstreet-api.onrender.com/notes/:id" target="_blank"> https://skillstreet-api.onrender.com/notes/:id</a>  
     Request Method: GET  
     Request Body Format: no body input required  
     Response Format: Object corresponding user note.
 
  3. Add a new note in database  
-    URL: [https://skillstreet-api.onrender.com/notes](url)  
+    URL: <a href="https://skillstreet-api.onrender.com/notes" target="_blank"> https://skillstreet-api.onrender.com/notes</a>  
     Request Method: POST  
     Request Body Format: {"title": "note title", "content": "note content"}  
     Response Format: Object corresponding to new created user note. 
 
  4. Update an existing note in database  
-    URL: https://skillstreet-api.onrender.com/notes/:id  
+    URL: <a href="https://skillstreet-api.onrender.com/notes/:id" target="_blank"> https://skillstreet-api.onrender.com/notes/:id</a>  
     Request Method: PUT  
     Request Body Format: {"title": "updated title", "content": "updated content"}  
     Response Format: Object corresponding to updated user note.
 
  5. Delete an existing note in database  
-    URL: [https://skillstreet-api.onrender.com/notes/:id](url)  
+    URL: <a href="https://skillstreet-api.onrender.com/notes/:id" target="_blank"> https://skillstreet-api.onrender.com/notes/:id</a>  
     Request Method: DELETE  
     Request Body Format: no body input required  
     Response Format: Object corresponding to deleted user note.</B>
